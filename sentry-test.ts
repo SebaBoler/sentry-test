@@ -14,7 +14,7 @@ async function testSentry() {
     profilesSampleRate: 1.0,
     maxBreadcrumbs: 50,
     enabled: true,
-    release: 'source-hub@1.81.7',
+    release: 'app@1.81.7',
     integrations: [
       nodeProfilingIntegration(),
       httpIntegration({
